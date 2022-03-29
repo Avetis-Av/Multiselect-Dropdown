@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    color: #c8d6e5;
+    background-color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover{
+	cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -200px;
+    margin-bottom: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.placeH {
+    display: block;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inpBox {
+    padding: 10px;
+}
+
+.input {
+    text-align: center;
+    color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.select {
+    accent-color: black;
+}
+
+.button {
+    align-items: center;
+    margin: 0 5px;
+    width: 100px;
+    cursor: pointer;
+    background: #1499e0;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.both {
+    padding: 10px;
+}
+
+.button-1{
+    float: left;
+    margin-left: -10px;
+    width: 100px;
+    cursor: pointer;
+    background: #1499e0;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.button-2{
+    float: right;
+    margin-right: -10px;
+    width: 100px;
+    cursor: pointer;
+    background: #1499e0;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
 }
